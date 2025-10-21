@@ -1,17 +1,15 @@
 {
-"name": "com.limi.physicalhair",
-"displayName": "ShaderGraphPhysicalHair",
-"description": "扩展UnityShaderGraph物理头发",
-"version": "1.0.0",
-"unity": "2022.3",
-
-"license": "MIT", 
-"documentationUrl": "https://baidu.com/",
-
-"author": {
+  "name": "com.limi.physicalhair",
+  "displayName": "ShaderGraphPhysicalHair",
+  "description": "扩展UnityShaderGraph物理头发",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "license": "MIT",
+  "documentationUrl": "https://baidu.com/",
+  "author": {
     "name": "LiMi",
     "email": "AreYea@yeah.net",
     "url": "https://bing.com/"
-  }
-
+  },
+  "_fingerprint": "7bb4e6ca9a6c05aaf8c0dac042499d6c4b2ba3d1"
 }
