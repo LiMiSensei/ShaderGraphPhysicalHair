@@ -990,16 +990,10 @@ namespace UnityEditor.Rendering.Universal.ShaderGraph
 
             //==================================================================================================
             // Custom Hair path :                  Packages/cn.unity.hairfx.urp/Editor/ShaderGraph/UniversalPipeline/PhysicalHair/Includes/
-            const string kForwardPass           = "Assets/ShaderGraphPhysicalHair/Editor/ShaderGraph/UniversalPipeline/PhysicalHair/Includes/MarschnerHairForwardPass.hlsl";
-            //const string kForwardPass           = "Packages/cn.unity.hairfx.urp/Editor/ShaderGraph/UniversalPipeline/PhysicalHair/Includes/MarschnerHairForwardPass.hlsl";
-            const string kHairSurfaceData       = "Assets/ShaderGraphPhysicalHair/Editor/ShaderGraph/UniversalPipeline/PhysicalHair/Includes/MarschnerHairSurfaceData.hlsl";
-            //const string kHairSurfaceData       = "Packages/cn.unity.hairfx.urp/Editor/ShaderGraph/UniversalPipeline/PhysicalHair/Includes/MarschnerHairSurfaceData.hlsl";
-            const string kHairBSDF              = "Assets/ShaderGraphPhysicalHair/Editor/ShaderGraph/UniversalPipeline/PhysicalHair/Includes/MarschnerHairBSDF.hlsl";
-            //const string kHairBSDF              = "Packages/cn.unity.hairfx.urp/Editor/ShaderGraph/UniversalPipeline/PhysicalHair/Includes/MarschnerHairBSDF.hlsl";
-
-            // Custom Varying.hlsl with custom define _LightDirection, that affect the pass of Forward and ShadowCaster only
-            //const string kVaryings              = "Packages/cn.unity.hairfx.urp/Editor/ShaderGraph/UniversalPipeline/PhysicalHair/Includes/Varyings.hlsl";
-            const string kVaryings              = "Assets/ShaderGraphPhysicalHair/Editor/ShaderGraph/UniversalPipeline/PhysicalHair/Includes/Varyings.hlsl";
+            const string kForwardPass           = "Packages/com.shadergraph.physicalhair/Editor/ShaderGraph/UniversalPipeline/PhysicalHair/Includes/MarschnerHairForwardPass.hlsl";
+            const string kHairSurfaceData       = "Packages/com.shadergraph.physicalhair/Editor/ShaderGraph/UniversalPipeline/PhysicalHair/Includes/MarschnerHairSurfaceData.hlsl";
+            const string kHairBSDF              = "Packages/com.shadergraph.physicalhair/Editor/ShaderGraph/UniversalPipeline/PhysicalHair/Includes/MarschnerHairBSDF.hlsl";
+            const string kVaryings              = "Packages/com.shadergraph.physicalhair/Editor/ShaderGraph/UniversalPipeline/PhysicalHair/Includes/Varyings.hlsl";
 
 
             //==================================================================================================
